@@ -1,0 +1,42 @@
+bit manipulations:
+finding first/last set bit et al
+
+last set bit: i&~(i-1)
+
+standardize binary search:
+
+initialize: l=0, r=n
+		while l<=r:
+			m=(l+r)/2
+			if test(m):
+				return 
+			elif XX:
+				r=m-1
+			else:
+				l=m+1
+
+python global variable
+
+python itertools
+
+
+
+https://leetcode.com/discuss/64344/theory-matters-from-backtracking-128ms-to-dp-0ms
+
+
+dict operation:
+dict.setdefault(key,default) returns value if key exists, otherwise set value to default and return.  Can be used like this: dict.setdefault(k,[]).append(v)  (no longer need to test if key exists)
+collections.defaultdict does the same thing but faster
+
+
+import os
+import random
+import str
+
+@decorator
+https://www.codementor.io/python/tutorial/advanced-use-python-decorators-class-function
+
+python OO programming
+
+
+unitest
